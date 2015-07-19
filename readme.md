@@ -9,3 +9,6 @@ It sure could! Feel free to fork it or submit a PR!
 ## This already exists
 
 Maybe! If you like the other one more, use that! I won't be offended.
+
+
+Inspired by [this post](http://adamgreenough.com/2015/07/19/really-simple-front-end-commenting-with-html5-data-attributes/)
