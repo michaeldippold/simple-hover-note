@@ -2,6 +2,9 @@
 /**
  * Plugin Name: Simple Hover Note
  * Description: Adds a popup on hover that displays text you can add in the admin
+ * Version: 1.0
+ * Author: Michael Dippold
+ * Author URI: http://www.michaeldippold.com
  */
 
 class simpleHoverNote {
