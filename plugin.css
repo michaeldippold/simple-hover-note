@@ -1,0 +1,20 @@
+.simple-hover-note {
+position: relative;
+background: #FFFFCC;
+padding: 1px 6px;
+}
+
+.simple-hover-note:hover:after {
+content: attr(data-hover-header)"\A" attr(data-hover-note);
+white-space: pre-wrap;
+background-color: #FFFFCC;
+font-weight: normal;
+color: black;
+padding: 8px 16px;
+box-shadow: 0 1px 0 1px rgba(0, 0, 0, 0.15), 0 2px 0 2px rgba(0, 0, 0, 0.1);
+width: 300px;
+min-height: 100px;
+display: inline-block;
+position: absolute;
+left: 100%;
+}
