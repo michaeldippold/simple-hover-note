@@ -38,14 +38,12 @@ class simpleHoverNote {
 	function simplehoverbuttons_register_tinymce_javascript($plugin_array) 
 	{
 	   $plugin_array['simplehovernote'] = plugins_url('plugin.js',__FILE__);
-	   //die(var_dump($plugin_array));
 	   return $plugin_array;
 	}
 
 	function simplehoverbuttons_register_buttons($buttons) 
 	{
 	   array_push($buttons, 'simplehovernote');
-	   //die(var_dump($buttons));
 	   return $buttons;
 	}
 	
